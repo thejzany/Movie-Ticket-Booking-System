@@ -10,14 +10,14 @@ public class BoxOffice {
     
     while(Flag) {
     	System.out.println(" \nEnter \n1. Show Seat Availability. \n2. Book Tickets. \n3. Check Ticket Details. \n4. Cancel Tickets. \n5. Exit.");
-    	int n=sc.nextInt();
+    	String n=sc.next();
     	switch(n) {
-    	case 1 :{
+    	case "1" :{
     		theatre.showSeatAvaliability();
     	}break;
     	
     	
-    	case 2 :{
+    	case "2" :{
     		System.out.println("Enter the Movie Name: ");
     		String name=sc.next();
     		System.out.println("Enter the number of seats you want to book");
@@ -32,18 +32,19 @@ public class BoxOffice {
     	}break;
     	
     	
-    	case 3 :{
+    	case "3" :{
     		theatre.showTicketDetails();
     	}break;
     	
     	
-    	case 4 :{
+    	case "4" :{
     		System.out.println("Enter the number of tickets to be cancalled");
     		int cancel=sc.nextInt();
     		theatre.cancelTickets(cancel);
     	}break;
     
-    	case 5 :{
+	
+    	case "5" :{
     		System.out.println("Thank you for using our Ticket Booking System!");
     		Flag=false;
     	}break;
