@@ -3,8 +3,8 @@ The Simple Movie Ticket Booking System is a Java-based console application that 
 
 **Key Features:**
 - **Ticket Booking:** Users can conveniently book movie tickets for their preferred shows.
-- **Seat Availability:** Users can check the availability of seats for a specific movie show.
-- **Ticket Details Retrieval:** Detailed information about booked tickets, including Number Of Tickets and Movie details, can be retrieved.
+- **Seat Availability:** Users can check the availability of seats for a movie show.
+- **Ticket Details Retrieval:** Users can retrieve the information about booked tickets, including number of tickets and movie details, can be retrieved.
 - **Ticket Cancellation:** Users have the flexibility to cancel their booked tickets, freeing up seats for others.
 
 ## Classes:
